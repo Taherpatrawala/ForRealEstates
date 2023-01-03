@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+    font-family: 'Poiret One',serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    outline: none;
+   
+}
+
+#carousel-item1{
+    min-height: 100vh;
+    min-width: 100vw;
+   
+}
+
+.carousel-container{ /*This Changed everything*/
+    overflow: scroll; /*thus the scroll bar will be visible*/
+    scroll-behavior: smooth; /*smooth scrolling*/
+}
+
+.show{
+    opacity: 1;
+    transition: all 1s;
+    
+}
+
+.hide{
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+
+.translatee{
+    transform: translateX(-70%);
+}
+
+.translatee2{
+    transform: translateX(70%);
+}
+
+.custom-font{
+    font-family: 'Maven Pro', serif;
+}
+
+.translateText{
+    transform: translateY(110%);
+    
+}
+
+.svgmargin{
+    margin-top: 3px;
+    margin-bottom: 2.4px;
+}
+
+.menuBarHeight{
+    height: 0;
+    overflow: hidden;
+}
+
+.menuBarHeightAfterClick{
+    height: 70vh;
+}
+
+.hamburgerRotate{
+   
+    transform: rotate(-90deg);
+}
+
+.active{
+    background-color: #f5f5f5;
+  
+    
+}
